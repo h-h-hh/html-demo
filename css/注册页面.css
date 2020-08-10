@@ -1,0 +1,47 @@
+.clearfix:after{
+	content: '';
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+.clearfix{
+	*zoom: 1;
+}
+.header{
+	width: 1200px;
+	margin: 0 auto;
+}
+.headerimg{
+	padding-top: 12px;
+}
+.menu{
+	width: 1200px;
+	margin: 0 auto;
+	height: 1000px;
+}
+.biaoti{
+	height: 40px;
+	background: #ececec;
+}
+.yonghu{
+	padding-left: 10px;
+	float: left;
+	width: 200px;
+	line-height:40px;
+}
+.denglu{
+	float: right;
+	line-height: 40px;
+	font-size: 13px;
+}
+.red a{
+	color: red;
+	text-decoration: none;
+}
+.biaodan{
+	width: 600px;
+	margin: 50px auto;
+	background: red;
+	height: 500px;
+}
